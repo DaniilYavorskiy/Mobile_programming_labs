@@ -1,0 +1,25 @@
+<resources >
+
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="ActionButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#431A0D</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="NumberButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#806845</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:colorBackground">#581717</item>
+    </style>
+
+</resources>
